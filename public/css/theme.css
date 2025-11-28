@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+  overflow: auto;
+  background: linear-gradient(to right, #f0f4f8, #d9e2ec); /* soft blue-gray tones */
+  font-family: 'Poppins', sans-serif;
+  color: #222; /* dark text for contrast */
+}
+
+.centered-cell {
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+.bg-light {
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+.nav-link {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav-link:hover {
+  color: #ffd700;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.table tr:nth-child(odd) td {
+  background: #f0f8ff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #333;
+  text-shadow: 1px 1px 1px #ccc;
+}
+
+p {
+  color: #444;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff4500;
+}
+
+ul, ol {
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+.image-section {
+  padding: 40px 20px;
+  background-color: #f5f5f5;
+}
+.image-flex {
+  display: flex;
+  justify-content: center;       /* center horizontally */
+  align-items: center;           /* center vertically */
+  gap: 20px;                     /* space between images */
+  flex-wrap: wrap;               /* wrap on smaller screens */
+}
+
+.image-flex img {
+  width: 400px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.video-showcase {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #f0f4f8;
+  color: #333;
+}
+
+.video-showcase h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.video-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.video-wrapper video {
+  width: 80%;
+  max-width: 700px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+
